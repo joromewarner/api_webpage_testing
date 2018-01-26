@@ -8,7 +8,7 @@ require 'selenium-webdriver'
 
 #Initialize
 
-class Webtesting
+#class Webtesting
 =begin
   def startup
 
@@ -34,7 +34,7 @@ class Webtesting
 #Looping The Website
 #for urls in websites_from_file can also be used
 
-  def web_loop
+  #def web_loop
     
     emailbody = ""
 
@@ -87,7 +87,7 @@ class Webtesting
       end
     driver.quit
     #return websites[urls]
-  end
+  #end
 =begin
   def send_email
     config = YAML.load_file("cred.yml")
@@ -105,7 +105,7 @@ class Webtesting
     gmail.logout
   end
 =end
-end
+#end
 
 
 
